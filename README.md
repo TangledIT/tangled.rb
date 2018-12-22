@@ -7,9 +7,9 @@ Tangled is a abstract layer around the IOTA Core Library. It helps to simplify d
 - [Installation](#installation)
 - [Usage](#usage)
   - [Account](#account)
-    - [Account Information](#account_information)
-    - [Generate Address](#generate_address)
-    - [Create transfer](#create_transfer)
+    - [Account Information](#account-information)
+    - [Generate Address](#generate-address)
+    - [Create transfer](#create-transfer)
     - [Transfers](#transfers)
   - [Transfer](#transfer)
     - [Transactions](#transactions)
@@ -18,7 +18,7 @@ Tangled is a abstract layer around the IOTA Core Library. It helps to simplify d
     - [Confirmed](#confirmed)
     - [Message](#message)
   - [Node](#node)
-    - [Node Information](#node_information)
+    - [Node Information](#node-information)
     - [Neighbors](#neighbors)
     - [Synced](#synced)
 - [Development](#development)
@@ -178,7 +178,7 @@ Tangled::Node.new.neighbors
 }
 ```
 
-#### Neighbors
+#### Synced
 Get account information such as balance and addresses.
 ```ruby
 Tangled::Node.new.synced?
