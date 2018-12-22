@@ -1,0 +1,77 @@
+PATH
+  remote: .
+  specs:
+    tangled (0.1.0)
+      iota-ruby
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    ast (2.4.0)
+    byebug (10.0.2)
+    coderay (1.1.2)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    digest-sha3 (1.1.0)
+    ffi (1.9.25)
+    hashdiff (0.3.7)
+    iota-ruby (1.1.7)
+      digest-sha3 (~> 1.1)
+      ffi (~> 1.9.25)
+    jaro_winkler (1.5.1)
+    method_source (0.9.2)
+    minitest (5.11.3)
+    mustermann (1.0.3)
+    parallel (1.12.1)
+    parser (2.5.3.0)
+      ast (~> 2.4.0)
+    powerpack (0.1.2)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    public_suffix (3.0.3)
+    rack (2.0.6)
+    rack-protection (2.0.4)
+      rack
+    rainbow (3.0.0)
+    rake (12.3.2)
+    rubocop (0.61.1)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.5, != 2.5.1.1)
+      powerpack (~> 0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.4.0)
+    ruby-progressbar (1.10.0)
+    safe_yaml (1.0.4)
+    sinatra (2.0.4)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.4)
+      tilt (~> 2.0)
+    tilt (2.0.9)
+    unicode-display_width (1.4.0)
+    webmock (3.4.2)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  byebug
+  minitest
+  pry
+  rake
+  rubocop
+  sinatra
+  tangled!
+  webmock
+
+BUNDLED WITH
+   1.17.1

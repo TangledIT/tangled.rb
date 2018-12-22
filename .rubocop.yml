@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - 'tangled.gemspec'
+
+Metrics/MethodLength:
+  Enabled: true
+  Max: 40
